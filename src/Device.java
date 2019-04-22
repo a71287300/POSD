@@ -1,6 +1,6 @@
 import java.util.Vector;
 
-public class Device {
+abstract class Device {
     protected Vector iPins = new Vector();
-    public void addInputPin(iPin ipin){}
+    public void addInputPin(InputPin ipin){}
 }

@@ -1,2 +1,2 @@
-public class gateOR extends Device {
+public class GateOR extends Device {
 }

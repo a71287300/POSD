@@ -1,2 +1,2 @@
-public class gateNot extends Device {
+public class GateNot extends Device {
 }
