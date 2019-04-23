@@ -1,6 +1,7 @@
 public class OutputPin extends Device {
     @Override
-    public boolean compute() {
+    public boolean compute()
+    {
         return false;
     }
 }
