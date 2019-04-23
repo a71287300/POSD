@@ -1,4 +1,4 @@
-public class OutputPin extends Device {
+public class GateAND extends Device {
     @Override
     public boolean compute() {
         return false;
