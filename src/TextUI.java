@@ -20,13 +20,8 @@ public class TextUI {
                 System.out.println("Please key in a file path : ");
                 Scanner scanner1 = new Scanner(System.in);
                 String pathname = scanner1.nextLine();
-                File filename = new File(pathname);
-                InputStreamReader reader = new InputStreamReader(new FileInputStream(filename));
-                BufferedReader br = new BufferedReader(reader);
-                while(br.ready()){
-                    System.out.println(br.readLine());
-                }
-                flag =true;
+                flag = LS.load(pathname);
+
                 }catch (Exception e)
                 {
                     System.out.println("File not found or file format error");
