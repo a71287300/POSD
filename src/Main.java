@@ -4,7 +4,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         TextUI textui = new TextUI();
-        //textui.displayMenu();
+        textui.displayMenu();
         /*InputPin inputPin1 = new InputPin();
         InputPin inputPin2 = new InputPin();
         InputPin inputPin3 = new InputPin();
