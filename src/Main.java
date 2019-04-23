@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) throws CannotAddInputPinException {
+    public static void main(String[] args) {
         TextUI textui = new TextUI();
         textui.displayMenu();
 
@@ -19,7 +19,7 @@ public class Main {
         outputPin.addInputPin(gateAND);
         inputPin1.setValue(false);
         inputPin2.setValue(false);
-        inputPin3.setValue(false);
+        inputPin3.setValue(true);
         System.out.println(outputPin.compute()? 1:0);
     }
 }
