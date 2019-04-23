@@ -1,9 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) throws CannotAddInputPinException {
         TextUI textui = new TextUI();
-        textui.displayMenu();
-
-        InputPin inputPin1 = new InputPin();
+        //textui.displayMenu();
+        /*InputPin inputPin1 = new InputPin();
         InputPin inputPin2 = new InputPin();
         InputPin inputPin3 = new InputPin();
         GateNot gateNot = new GateNot();
@@ -20,6 +22,6 @@ public class Main {
         inputPin1.setValue(false);
         inputPin2.setValue(false);
         inputPin3.setValue(false);
-        System.out.println(outputPin.compute()? 1:0);
+        System.out.println(outputPin.compute()? 1:0);*/
     }
 }
